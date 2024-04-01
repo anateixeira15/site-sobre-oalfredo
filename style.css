@@ -1,0 +1,206 @@
+html{
+    background-color: rgb(40, 13, 66);
+    width: auto;
+}
+header {
+    background-color: #0f0f31;
+    color: azure;
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    font-size: 150%;
+    padding: 0%;
+    margin:0%;
+    border: 0;
+
+    
+}
+.cabecalho-img{
+    width: 20%;
+}
+p{
+    display: block;
+    font-size: 25px;
+}
+.inicio{
+    text-align: center;
+    font-size: 40px;
+}
+.inic{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+.inicios{
+    font-size: 25px;
+    text-align: center;
+    color: beige;
+}
+.historia-alfredo{
+    text-align: center;
+    font-size: 40px;
+}
+.historia{
+    display: flex;
+    margin:0%;
+    text-align:left ;
+    font-size: 250%;
+    display: flex;
+    color:beige
+}
+.alfredo-historia{
+    text-align: center;
+    display: flex;
+}
+.comeco-do-alfredo{
+    width: 480px;
+    height: 400px;
+    display: flex;
+    border: 5px solid black;
+}
+.alfredo-imagem{
+    text-align:right;
+    color: black;
+    font-size: 30px;
+}
+.alunos-do-alfredo{
+    text-align: center;
+    font-size: 40px;
+}
+.estudantes{
+    text-align: center;
+    color: beige;
+}
+.rafa-richard{
+    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.rafa{
+    width: 400px;
+    height: 460px;  
+    border: 5px solid black;  
+}
+.richard{
+    width: 400px;
+    height: 460px;
+    border: 5px solid black;
+}
+.matheus{
+    width: 400px;
+    height: 460px;
+    border: 5px solid black;
+}
+#nomes{
+    color: beige;
+}
+#r-r{
+    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+}
+.vi-eu{
+    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.vitoria{
+    width: 400px;
+    height: 450px;  
+    border: 5px solid black;  
+}
+.eu{
+    width: 400px;
+    height: 450px;
+    border: 5px solid black;
+}
+.karol{
+    width: 400px;
+    height: 450px;
+    border: 5px solid black;
+}
+#v-k{
+    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.alfredo-espaco{
+    text-align: center;
+    color: beige;
+}
+.espaco-interno{
+    text-align: center;
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    font-size: 150%;
+}
+#espaco{
+    font-size: 40px;
+    color:black;
+    text-align: center;
+}
+.espaco-externo{
+    text-align: center;
+    font-size: 40px;
+    color: black
+}
+.quadra-principal{
+    width: 1300px;
+    height: 650px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;   
+}
+.interclass{
+    align-items: center;
+}
+.interclasse-2022{
+    text-align: center;
+    color: beige;
+}
+#inter{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.imagens{
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.alemanha{
+    width: 650px;
+    height: 325px;
+    display: flex;
+    border: 5px solid black;
+}
+.sala-inteira{
+    width: 650px;
+    height: 325px;
+    display: grid;
+    
+    border: 5px solid black;
+}
+.imagens-alemanha{
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.sala{
+    width: 650px;
+    height: 325px;
+    display: inline-flex;
+    border: 5px solid black;
+}
+.bandeirinhas{
+    width: 650px;
+    height: 325px;
+    display: inline-flex;
+    border: 5px solid black;
+}
+footer{
+    text-align: center;
+    color: black;
+}
