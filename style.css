@@ -12,7 +12,11 @@ header {
 }
 .cabecalho-img{
     width: 20%;
-;
+}
+.cabecalho{
+        margin: 0;
+    padding: 0;
+    border: 0;  
 }
 p{
     display: block;
