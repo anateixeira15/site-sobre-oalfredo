@@ -1,4 +1,7 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 html{
     background-color: rgb(40, 13, 66);
     width: auto;
@@ -21,44 +24,83 @@ p{
     text-align: center;
     font-size: 40px;
     color: black;
+    padding: 30px 0px 0px 0px;
 }
 .inic{
     text-align: center;
     color: black;
     font-size: 35px;
+    padding: 20px 0px 0px 0px;
 }
 .inicios{
     font-size: 25px;
     text-align: center;
     color: beige;
+    padding: 20px 0px 0px 0px ;
+}
+.historia-alfredo{
+    padding: 60px 0px 0px 0px;
 }
 
-#insta{
-    width: 80px;
-    height: 80px;
-    display: flex;
-    
+.alfredo-historia{
+    padding: 30px 0px 0px 0px;
 }
+#historia{
+    padding: 60px 0px 0px 0px;
+}
+.alunos-do-alfredo{
+    padding: 70px 0px 0px 0px;
+}
+.estudantes{
+    padding: 30px 0px 30px 0px;
+}
+#sobre-a-rafa{
+    padding: 20px 0px 0px 0px;
+}
+#sobre-o-richard{
+    padding: 20px 0px 0px 0px;
+}
+#sobre-o-matheus{
+    padding: 20px 0px 0px 0px;
+}
+#sobre-vitoria{
+    padding: 20px 0px 0px 0px;
+}
+#sobre-eu{
+    padding: 20px 0px 0px 0px;
+}
+#sobre-a-karol{
+    padding: 20px 0px 0px 0px;
+}
+
 #instagram-vk{
     display: flex;
     display: grid;
     grid-template-columns:33% 33% 33%;
 }
-.vi-eu{
-    
-}
 #instagram-r-r{
-    display: flex;
+    display: flex;;
     display: grid;
-    grid-template-columns:33% 67%;
+    grid-template-columns: 10% 30% 60%
+}
+#insta-rafa{
+    width: 80px;
+    height: 80px;
+    display: flex; 
+    padding: 0px 10px 0px 50px;  
 }
 
-
-
-#ttk{
+#insta-richard{
+    width: 80px;
+    height: 80px;
+    display: flex;  
+    padding: 0px 30px 10px 0px; 
+}
+#ttk-rafa{
     width: 80px;
     height: 80px;
     display: flex;
+    padding: 0px 25px 10px 30px; 
 }
 .historia-alfredo{
     text-align: center;
@@ -80,7 +122,8 @@ p{
     width: 480px;
     height: 400px;
     display: flex;
-    border: 5px solid black;
+    border-color: black;
+    border: 10px 10px 10px 10px;
 }
 .alfredo-imagem{
     text-align:right;
@@ -127,7 +170,51 @@ p{
     display: flex;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    padding: 20px 0px 0px 0px;
+   
 }
+
+#instagram-vk{
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+
+}
+#insta-vi{
+    width: 80px;
+    height: 80px;
+    display: flex; 
+    padding: 10px 10px 0px 50px;  
+}
+#insta-ana{
+    width: 80px;
+    height: 80px;
+    display: flex; 
+    padding: 10px 10px 0px 80px;  
+}
+#insta-ka{
+    width: 80px;
+    height: 80px;
+    display: flex; 
+    padding: 10px 10px 0px 120px;  
+}
+#ttk-vi{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    padding: 10px 25px 10px 0px; 
+}
+#ttk-ka{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    padding: 10px 30px 10px 60px; 
+}
+#ttk-ana{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    padding: 10px 30px 10px 30px; 
+}
+
 .vitoria{
     width: 400px;
     height: 450px;  
@@ -147,6 +234,13 @@ p{
     display: flex;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+}
+#espaco{
+    padding: 60px 0px 30px 0px;
+}
+
+#quadra{
+    padding: 0px 0px 40px 0px;
 }
 .alfredo-espaco{
     text-align: center;
@@ -187,6 +281,10 @@ p{
     text-align: center;
     font-size: 40px;
     color: black;
+    padding: 50px 0px 30px 0px;
+}
+#sala-2022{
+    padding: 0px 0px 35px 0px;
 }
 .imagens{
     display: flex;
@@ -197,14 +295,13 @@ p{
     width: 650px;
     height: 325px;
     display: flex;
-    border: 5px solid black;
+    padding: 0px 10px 25px 10px;
 }
-.sala-inteira{
+.sala-inteira {
     width: 650px;
     height: 325px;
     display: grid;
-    
-    border: 5px solid black;
+    padding: 0px 10px 25px 10px;
 }
 .imagens-alemanha{
     display: flex;
@@ -216,20 +313,28 @@ p{
     width: 650px;
     height: 325px;
     display: inline-flex;
-    border: 5px solid black;
+    padding: 20px 10px 25px 10px;
 }
 .bandeirinhas{
     width: 650px;
     height: 325px;
     display: inline-flex;
-    border: 5px solid black;
+  
+    padding: 20px 10px 25px 10px;
 }
 footer{
     text-align: center;
     color: black;
 }
+.rodape{
+    padding:  0px 0px 0px;
+}
 .rodap{
     color: rgb(17, 0, 253);
+    text-align: center;
+    font-size:25px;
+}
+
     text-align: center;
     font-size:25px;
 }
